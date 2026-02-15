@@ -22,25 +22,46 @@ The following custom DAX measures were developed to drive the analysis:
 *   **Profit Colour:** A conditional formatting logic to visually highlight losses in Red, providing immediate "Danger Zone" recognition.
 
 ---
+
 <div align="center">
-  <img src="PowerBI/Correlation.png" width="800" alt="Correlation & R2">
+  <img src="salesmap.png" width="800" alt="The balloon size in this map shows which countries are doing the most profits">
 </div>
 
 
----
 
-## 🛠️ Technical Challenges Overcome
-*   **Environment Constraints:** Navigating the specific UI limitations of the Power BI Web Version.
-*   **Data Standardisation:** Resolved initial data discrepancies by adjusting 'Locale' settings to align time zones and currency formatting.
-*   **Visual Calibration:** Fine-tuned X and Y axes to ensure a continuous scale that accurately represented the relationship between percentage and currency.
+<div align="center">
+  <img src="DiscountsGiven.png" width="400" alt="Correlation & R2">
+</div>
 
-## ✅ Result
-*   **Interactive Geographic Map:** Integrated a map visual to show profit distribution across Europe, allowing decision-makers to spot struggling cities at a glance.
-*   **Threshold Discovery:** Identified that **Furniture** has the lowest discount tolerance (breaking even at ~24%), whereas **Office Supplies** remains resilient at higher tiers.
-*   **Risk Mitigation:** The "Profit Colour" implementation allowed stakeholders to instantly identify unprofitable regions.
-*   **Strategic Foundation:** Established a baseline for future Forecasting Models to predict the financial impact of seasonal sales before launch.
-*
+
+<div align="center">
+  <img src="SalesProfitsDiscounts.png" width="800" alt="Correlation & R2">
+</div>
+
+
+
+<div align="center">
+  <img src="Correlation.png" width="800" alt="Correlation & R2">
+</div>
+
+
+
+<div align="center">
+  <img src="ProfitErosion.png" width="800" alt="Correlation & R2">
+</div>
+
+
+
+
+<div align="center">
+  <img src="discountslimits.png" width="800" alt="Correlation & R2">
+</div>
+
+
+
 ## 📊  Interact with the reports
+*   🔗 **[Interact with the reports about discounts here](https://sites.google.com/view/nadia-online/projects/deep-analysis)**
+*   **[Download the .pbix file from here](EUSuperstore.pbix)**
 
  
 ## 📖 How to Read the "Sweet Spot" Chart
@@ -52,6 +73,18 @@ The following custom DAX measures were developed to drive the analysis:
 
 ### 💡 How to use the Slicers
 Use the **Region** and **Segment** slicers to see your local "Sweet Spot." You’ll notice that while the general break-even for Technology is high, certain regions have much tighter margins. This helps managers set localised discount policies based on regional competitors or customer types.
+
+
+## 🛠️ Technical Challenges Overcome
+*   **Environment Constraints:** Navigating the specific UI limitations of the Power BI Web Version.
+*   **Data Standardisation:** Resolved initial data discrepancies by adjusting 'Locale' settings to align time zones and currency formatting.
+*   **Visual Calibration:** Fine-tuned X and Y axes to ensure a continuous scale that accurately represented the relationship between percentage and currency.
+
+## ✅ Result
+*   **Interactive Geographic Map:** Integrated a map visual to show profit distribution across Europe, allowing decision-makers to spot struggling cities at a glance.
+*   **Threshold Discovery:** Identified that **Furniture** has the lowest discount tolerance (breaking even at ~24%), whereas **Office Supplies** remains resilient at higher tiers.
+*   **Risk Mitigation:** The "Profit Colour" implementation allowed stakeholders to instantly identify unprofitable regions.
+*   **Strategic Foundation:** Established a baseline for future Forecasting Models to predict the financial impact of seasonal sales before launch.
 
 ## 🧰 Technical Stack
 *   **Tool:** Power BI (Web/Desktop)
