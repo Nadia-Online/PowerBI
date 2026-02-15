@@ -23,15 +23,6 @@ The following custom DAX measures were developed to drive the analysis:
 
 ---
 
-## 📖 How to Read the "Sweet Spot" Chart
-*   **The Horizon (Zero Line):** The solid black line represents £0 Profit.
-    *   **The Profit Zone:** Anything above this line is "money in the bank."
-    *   **The Loss Zone:** Anything below this line means the business is paying to sell the product.
-*   **The Intersection (The Sweet Spot):** The exact point where the category line crosses the Horizon is your maximum safe discount. If the line crosses at 24%, any discount at 25% or higher is a "red" sale.
-*   **The Slope:** The steeper the line (like in Furniture), the more "fragile" that category is. A small 5% change in discount can lead to a massive swing in profit.
-
-### 💡 How to use the Slicers
-Use the **Region** and **Segment** slicers to see your local "Sweet Spot." You’ll notice that while the general break-even for Technology is high, certain regions have much tighter margins. This helps managers set localised discount policies based on regional competitors or customer types.
 
 ---
 
@@ -45,6 +36,19 @@ Use the **Region** and **Segment** slicers to see your local "Sweet Spot." You�
 *   **Threshold Discovery:** Identified that **Furniture** has the lowest discount tolerance (breaking even at ~24%), whereas **Office Supplies** remains resilient at higher tiers.
 *   **Risk Mitigation:** The "Profit Colour" implementation allowed stakeholders to instantly identify unprofitable regions.
 *   **Strategic Foundation:** Established a baseline for future Forecasting Models to predict the financial impact of seasonal sales before launch.
+*
+## 📊  Interact with the reports
+
+ 
+## 📖 How to Read the "Sweet Spot" Chart
+*   **The Horizon (Zero Line):** The solid black line represents £0 Profit.
+    *   **The Profit Zone:** Anything above this line is "money in the bank."
+    *   **The Loss Zone:** Anything below this line means the business is paying to sell the product.
+*   **The Intersection (The Sweet Spot):** The exact point where the category line crosses the Horizon is your maximum safe discount. If the line crosses at 24%, any discount at 25% or higher is a "red" sale.
+*   **The Slope:** The steeper the line (like in Furniture), the more "fragile" that category is. A small 5% change in discount can lead to a massive swing in profit.
+
+### 💡 How to use the Slicers
+Use the **Region** and **Segment** slicers to see your local "Sweet Spot." You’ll notice that while the general break-even for Technology is high, certain regions have much tighter margins. This helps managers set localised discount policies based on regional competitors or customer types.
 
 ## 🧰 Technical Stack
 *   **Tool:** Power BI (Web/Desktop)
