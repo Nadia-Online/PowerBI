@@ -22,6 +22,9 @@ The following custom DAX measures were developed to drive the analysis:
 *   **Profit Colour:** A conditional formatting logic to visually highlight losses in Red, providing immediate "Danger Zone" recognition.
 
 ---
+<div align="center">
+  <img src="PowerBI/Correlation.png" width="800" alt="Correlation & R2">
+</div>
 
 
 ---
